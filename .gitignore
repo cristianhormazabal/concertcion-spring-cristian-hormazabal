@@ -19,3 +19,22 @@ gradle-app.setting
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# Gradle
+.gradle/
+build/
+out/
+
+# Credenciales
+.env
+.env.*
+application-local.properties
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+
+# Configuración local
+.vscode/
+.idea/
